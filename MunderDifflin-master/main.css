@@ -93,7 +93,6 @@
   background-image: url(copypaper.jpg);
   background-size: 250px 250px;
   display: grid;
-  justify-items: center;
   justify-content: center;
   grid-template-rows: 250px 250px;
   grid-template-columns: 250px 250px 250px;
@@ -107,4 +106,3 @@
   from{opacity: 0;}
   to{opacity: 1;}
  }
-
