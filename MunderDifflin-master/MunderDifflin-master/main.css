@@ -1,0 +1,88 @@
+.heading {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifS;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: hsl(199, 92%, 77%);
+}
+
+/* Style the links in the navbar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Change color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Center the paperimg */
+.officeimg {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 5px solid #2196F3;
+  width: 56%;
+}
+
+.ourStory {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ourMission {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.products {
+  text-indent: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.products-container {
+  background-image: url(copypaper.jpg);
+  background-size: 250px 250px;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 250px 250px 250px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding: 2px;
+  color: aliceblue;
+}
+
+@keyframes appear{
+  from{opacity: 0;}
+  to{opacity: 1;}
+ }
